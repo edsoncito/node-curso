@@ -9,4 +9,6 @@ for (let index = 1; index < 11; index++) {
 
 console.log(salida)
 
+
+
 fs.writeFileSync("tabla-"+num+".txt", salida)
